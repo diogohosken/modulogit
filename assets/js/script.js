@@ -1,6 +1,7 @@
 $(function(){
 
 	$('#botao').bind('click', function(){
+		
 		var alt= $('#altura').val();
 		var pes= $('#peso').val();
 
@@ -27,6 +28,8 @@ $(function(){
 		}
 
 		$('#resultado').html('Seu IMC é ' +result+ ' kg/m², status: ' +situ);
+
+		
 	})
 
 });

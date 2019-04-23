@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div class="container centro">
-			<div class="obj">
+			<form class="obj">
 				<h1 >Calculo de IMC</h1>
 				<div class="corpo_obj">
 					Altura em metros<br>
@@ -21,7 +21,7 @@
 				</div>	
 					<button id="botao" class="btn btn-success">Calcular IMC</button><br><br>
 				<div id="resultado"></div>
-			</div>
+			</form>
 
 		</div>
 
