@@ -1,6 +1,7 @@
 $(function(){
 
-	$('#botao').bind('click', function(){
+	$('#botao').bind('click', function(e){
+		e.preventDefault();
 		
 		var alt= $('#altura').val();
 		var pes= $('#peso').val();
